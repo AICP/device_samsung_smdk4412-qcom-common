@@ -17,11 +17,11 @@
 COMMON_PATH := device/samsung/smdk4412-qcom-common
 
 # GPS
-PRODUCT_PACKAGES += \
-    gps.default \
-    libgps.utils \
-    libloc_core \
-    libloc_eng
+#PRODUCT_PACKAGES += \
+#    gps.default \
+#    libgps.utils \
+#    libloc_core \
+#    libloc_eng
 
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.gps.agps_provider=1 \
